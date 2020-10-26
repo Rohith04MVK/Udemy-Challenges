@@ -7,7 +7,6 @@ def vowel_counter(string):
     vowel_dict = {}
     list_of_string = list(string)
     for vowel in list_of_string:
-        print(vowel)
         if vowel == "a":
             a = a+1
             vowel_dict['a'] = a
@@ -23,7 +22,7 @@ def vowel_counter(string):
         elif vowel == "u":
             u = u+1
             vowel_dict['u'] = u
-    print(vowel_dict)
+    return(vowel_dict)
 
 
-vowel_counter("Hello there how are you")
+print(vowel_counter("Hello there how are you"))
