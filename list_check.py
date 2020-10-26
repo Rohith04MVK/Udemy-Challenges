@@ -6,7 +6,7 @@ my_list = [[1], [2]]
 
 
 def list_check(list1):
-    l = all(isinstance(elle, list) for elle in list1)
+    l = all(isinstance(ellement, list) for ellement in list1)
     print(l)
 
 
