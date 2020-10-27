@@ -1,4 +1,6 @@
-# Given a list of intigers and a number the function will find the first pair with the number as the sum from the list
+'''Given a list of intigers and a number the function 
+will find the first pair with the number 
+as the sum from the list'''
 
 
 my_list = [1, 2, 3, 6, 7, 8, 9, 10]
