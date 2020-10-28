@@ -5,6 +5,9 @@ def factor_finder(num):
         i = i+1
         if num%i == 0:
             factor_list.append(i)
-    print(factor_list)
+    return(factor_list)
         
-factor_finder(11)
+if len(factor_finder(11)) == 2:
+    print("Prime Number")
+else:
+    print("Composite number")
