@@ -4,4 +4,4 @@ def includes(val, val2, val3):
     else:
         return False
 
-print(includes([1,2,3], 2, 1)) 
+print(includes({'a':1, 'b':2}, 1, 1)) 
